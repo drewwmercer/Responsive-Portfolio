@@ -237,15 +237,24 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+b 
+
+/* Adding media queries */
 
 @media screen and (max-width:980px) {
-
+  .masthead {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width:768px) {
-
+  .masthead {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width:640px) {
-
+  .masthead {
+      width: 100%;
+    }
 }
