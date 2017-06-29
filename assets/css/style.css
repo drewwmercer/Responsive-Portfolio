@@ -251,6 +251,7 @@ input[type=submit] {
 
   .sidebar {
     float: left;
+    margin-right: 100px;
   }
 
   #main-container {
@@ -300,7 +301,27 @@ input[type=submit] {
 
 /* If the browser window is smaller than 640px */
 @media screen and (max-width:640px) {
-  .masthead {
+  .container {
       width: 100%;
+      padding-left: 0px;
     }
+
+  #logo {
+    width: 100%;
+    margin-left: 0px;
+   } 
+  
+  nav {
+    width: 100%;
+  }
+
+#main-container {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: auto;
+  }
+
 }
