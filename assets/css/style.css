@@ -246,6 +246,11 @@ input[type=submit] {
 
   .container {
     padding-left: 100px;
+    float:left;
+  }
+
+  .sidebar {
+    float: left;
   }
 
   #main-container {
@@ -270,8 +275,27 @@ input[type=submit] {
   }
 
   .container {
-    padding-left: 10px;
+    padding-left: 15px;
+    width: 100%;
   }
+
+  #main-container {
+    width: 100%;
+  }
+
+  #connect {
+    width: auto;
+  }
+
+  nav {
+    margin-right: 15px;
+  }
+
+  .auth-image {
+    float: left;
+    width: 50%;
+}
+
 }
 
 /* If the browser window is smaller than 640px */
