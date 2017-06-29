@@ -241,18 +241,21 @@ b
 
 /* Adding media queries */
 
+/* If the browser window is smaller than 980px */
 @media screen and (max-width:980px) {
-  .masthead {
+  .container {
     width: 100%;
   }
 }
 
+/* If the browser window is smaller than 768px */
 @media screen and (max-width:768px) {
   .masthead {
     width: 100%;
   }
 }
 
+/* If the browser window is smaller than 640px */
 @media screen and (max-width:640px) {
   .masthead {
       width: 100%;
