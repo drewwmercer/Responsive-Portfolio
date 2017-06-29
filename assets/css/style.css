@@ -237,21 +237,40 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-b 
+ 
 
 /* Adding media queries */
 
 /* If the browser window is smaller than 980px */
 @media screen and (max-width:980px) {
+
   .container {
+    padding-left: 100px;
+  }
+
+  #main-container {
+    width: 55%;
+  }
+
+  .auth-image {
+    float: none;
     width: 100%;
   }
+
+  nav {
+    margin-right: 100px;
+  }
+
 }
 
 /* If the browser window is smaller than 768px */
 @media screen and (max-width:768px) {
   .masthead {
     width: 100%;
+  }
+
+  .container {
+    padding-left: 10px;
   }
 }
 
